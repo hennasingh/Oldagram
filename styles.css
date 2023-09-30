@@ -3,6 +3,11 @@ html, body {
     padding: 0;
 }
 
+.main {
+    margin: auto;
+    width:500px
+}
+
 #oldagram-logo {
     width: 200px;
 }
@@ -30,6 +35,20 @@ h3, p {
     font-size: 16px;
     margin-top: 4px;
     margin-left:4px;
+}
+
+#post-vangogh {
+    width: 500px;
+}
+
+.icon-heart, .icon-comment, .icon-dm {
+    width: 30px;
+}
+.section-two {
+    margin: 25px 5px;
+}
+.icon-comment {
+    margin: 0 10px
 }
 
 
