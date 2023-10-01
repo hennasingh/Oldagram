@@ -28,3 +28,11 @@ const posts = [
     }
 ]
 
+const heartImgEl = document.getElementById("heart-likes");
+const numOfLikesEl = document.getElementById("number-likes")
+
+heartImgEl.addEventListener('click', function() {
+    let likes = parseFloat((numOfLikesEl.textContent).replace(/,/g, ''))
+    numOfLikesEl.textContent = (likes + 1).toLocaleString()
+})
+

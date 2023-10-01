@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 .main {
@@ -45,10 +46,25 @@ h3, p {
     width: 30px;
 }
 .section-two {
-    margin: 25px 5px;
+    margin: 25px 5px 15px;
 }
+
 .icon-comment {
     margin: 0 10px
+}
+
+h4 {
+    margin: 10px 0;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.icon-heart:hover,
+.icon-comment:hover,
+.icon-dm:hover {
+    opacity: 0.5;
 }
 
 
