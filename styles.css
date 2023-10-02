@@ -6,7 +6,8 @@ html, body {
 
 .main {
     margin: auto;
-    width:500px
+    width:500px;
+    padding: 10px;
 }
 
 #oldagram-logo {
